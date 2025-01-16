@@ -16,3 +16,8 @@ res.end('Hello World\n');
 server.listen(port, hostname, () => {
 console.log(`Server running at http://${hostname}:${port}/`);
 });
+/* function(__dirname, __filename, module, require, exports)
+console.log(__dirname);
+console.log(__filename);
+const add = require("/calculator.js);
+*/
